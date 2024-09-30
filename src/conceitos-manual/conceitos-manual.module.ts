@@ -1,5 +1,8 @@
 /* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
+import { ConceitosManualController } from './conceitos-manual.controller';
 
-@Module({})
+@Module({
+    controllers: [ConceitosManualController]
+})
 export class ConceitosManualModule { }
